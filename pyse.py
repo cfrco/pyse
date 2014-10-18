@@ -61,6 +61,8 @@ def pyse_run_function(script):
 def main():
     args = init_arg().parse_args()
     
+    pre_script = ''
+    post_script = ''
     if not args.file is None:
         script = open(args.file).read()
     else:
