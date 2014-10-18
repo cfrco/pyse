@@ -1,4 +1,4 @@
-# pyse - An quite Python Stream Editor
+# pyse - An quite easy Python Stream Editor
 
 ## Motivation
 `sed` is a famous stream editor. But I'm not familiar with it. You need to remember some detail of it. Or, you couldn't use it.
@@ -42,5 +42,4 @@ def post(no):
 
 ```
 cat something | pyse -Ff test
-
 ```
