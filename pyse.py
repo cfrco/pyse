@@ -37,7 +37,7 @@ def pyse_run_normal(pre, script, post):
 def pyse_run_function(script):
     # pre()
     # post(no)
-    # each(line, no-1)
+    # each(line, no)
     exec(script)
     
     try:
@@ -54,7 +54,7 @@ def pyse_run_function(script):
     
     try:
         post
-        post(no-1)
+        post(no)
     except NameError:
         pass
 
