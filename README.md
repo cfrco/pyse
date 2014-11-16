@@ -18,7 +18,6 @@ print no, line
 
 ```
 cat something | pyse -f test
-
 ```
 
 ### Pre-script and Post-script
