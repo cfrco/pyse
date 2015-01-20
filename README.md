@@ -42,3 +42,9 @@ def post(no):
 ```
 cat something | pyse -Ff test
 ```
+
+### Extend Modules
+#### Execution
+```
+ls |grep .py$ | pyse "print 'ls -al', line" | pyse -me
+```
