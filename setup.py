@@ -16,5 +16,6 @@ setuptools.setup(
     author_email='cfrco@meowdev.tw',
     license='',
     url='https://github.com/cfrco/pyse',
+    packages=['pyse', 'pyse.ext'],
     scripts=['build/_scripts/pyse']
 )

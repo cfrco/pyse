@@ -41,7 +41,8 @@ def main():
             script = each_script
 
     if args.module != None:
-        pyse.run_module(args.module, [])
+        modargs = args.module.split(",")
+        pyse.run_module(modargs[0], modargs[1:])
     elif args.function_mode:
         pyse.run_function(script)
     else:
