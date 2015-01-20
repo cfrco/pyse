@@ -6,7 +6,7 @@ import shutil
 
 if not os.path.exists('build/_scripts'):
     os.makedirs('build/_scripts')
-shutil.copyfile('pyse.py', 'build/_scripts/pyse')
+shutil.copyfile('pyse_script.py', 'build/_scripts/pyse')
 
 setuptools.setup(
     version='0.0.1',
